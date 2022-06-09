@@ -35,3 +35,6 @@ root@dev-server01 /myworkspace/gestalt/DevelopmentEnv (Release_3.0.0) #
 
 
 ```
+## Leave Swarm Mode
+**docker swarm leave** is used when you want a worker node to leave from swarm , 
+**docker swarm leave** **--force** is for a manager node to leave the swarm.
