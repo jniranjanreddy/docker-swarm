@@ -18,8 +18,8 @@ services:
 #       condition: on-failure
 #       max_attempts: 3
    environment:
-     - POSTGRES_USER=pathflow-poc
-     - POSTGRES_PASSWORD=pMaHiumtavrQQjfZIFqF
+     - POSTGRES_USER=admin
+     - POSTGRES_PASSWORD=admin@123
   nginx:
    image: nginx:1.19-alpine
    ports:
